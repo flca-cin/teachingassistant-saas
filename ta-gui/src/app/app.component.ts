@@ -8,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'teaching assistant';
+  aluno: Aluno = { nome: '', cpf: '', email: '' };
+}
+
+export class Aluno {
+  nome: string;
+  cpf: string;
+  email: string;
 }
